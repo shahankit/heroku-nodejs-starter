@@ -9,7 +9,7 @@
   "scripts": {
     "serve": "node dist/index.js",
     "postinstall": "npm run build",
-    "build": "./node_modules/.bin/babel lib -d dist --copy-files",
+    "build": "./node_modules/.bin/babel src -d dist --copy-files",
     "start": "babel-node src/index.js"
   },
   "dependencies": {
