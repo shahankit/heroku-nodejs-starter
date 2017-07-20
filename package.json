@@ -10,7 +10,7 @@
     "serve": "node dist/index.js",
     "postinstall": "npm run build",
     "build": "./node_modules/.bin/babel lib -d dist --copy-files",
-    "start": "babel-node lib/index.js"
+    "start": "babel-node src/index.js"
   },
   "dependencies": {
     "babel-cli": "^6.24.1",
