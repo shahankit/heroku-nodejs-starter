@@ -32,6 +32,10 @@ app.get('/', (request, response) => {
   response.render('pages/index');
 });
 
+global.server = app;
+
 app.listen(app.get('port'), () => {
+  // eslint-disable-next-line global-require
+  require('./routes');
   console.log('Node app is running on port', app.get('port'));
 });

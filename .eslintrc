@@ -27,5 +27,8 @@
     "experimentalObjectRestSpread": true,
     "experimentalDecorators": true,
     "modules": false
+  },
+  "globals": {
+    "server": false
   }
 }
